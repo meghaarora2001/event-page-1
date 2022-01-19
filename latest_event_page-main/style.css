@@ -1,0 +1,131 @@
+section{
+    position: fixed;
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+    background: #000200;
+    display: flex;
+    justify-content: center;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+    background-color: black;
+}
+/* body{
+    background-color: black;
+} */
+
+section .star
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 800px;
+    pointer-events: none;
+    background-attachment: fixed;
+
+    animation: animate 8s ease-in-out infinite;
+             
+
+}
+section .star.star1
+{       position: fixed;
+
+    animation-delay: 0s;
+    background: url(star1.png);
+    
+}
+section .star.star2
+{
+    animation-delay: -1s;
+    background: url(star2.png);
+    position: fixed;
+
+}
+section .star.star3
+{
+    animation-delay: -2s;
+    background: url(star3.png);
+    position: fixed;
+
+}
+section .star.star4
+{
+    animation-delay: -3s;
+    background: url(star4.png);
+    position: fixed;
+
+}
+section .star.star5
+{
+    animation-delay: -4s;
+    background: url(star5.png);
+    position: fixed;
+
+}
+section .star.star6
+{
+    animation-delay: -5s;
+    background: url(star6.png);
+    position: fixed;
+
+}
+section .star.star7
+{
+    animation-delay: -6s;
+    background: url(star7.png);
+    position: fixed;
+
+}
+section .star.star8
+{
+    animation-delay: -7s;
+    background: url(star8.png);
+    position: fixed;
+
+}
+
+@keyframes animate
+{
+    0%,20%,40%,60%,80%,100%
+    {
+        opacity: 0;
+    }
+    10%,30%,50%,70%,90%
+    {
+        opacity: 1;
+    }
+}
+@keyframes backgroundmove{
+    0%
+    {
+        transform: scale(1);
+    }
+    100%
+    {
+        transform: scale(2);
+    }
+
+}
+
+
+div .starr
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    animation: animate 8s ease-in-out infinite;
+             
+
+}
+section .star.star1
+{
+    animation-delay: 0s;
+    background: url(star1.png);
+}
